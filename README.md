@@ -31,7 +31,7 @@ Para la configuración a continuación se considera que el directorio generado c
 
 ### Contraseña de la web fsadmin
 
-para cambiar el usuario y la contraseña de la interface web de administración, hay que editar el archivo:```fs/conf/webpass.php``` reemplazando el usuario y la contraseña donde corresponde (sin cambiar el nombre de las variables).
+Para cambiar el usuario y la contraseña de la interface web de administración, hay que editar el archivo:```fs/conf/webpass.php``` reemplazando el usuario y la contraseña donde corresponde (sin cambiar el nombre de las variables).
 
 Si es necesario hacer cambios que generen una imagen distinta se debe cambiar el archivo ```Dockerfile```
 
