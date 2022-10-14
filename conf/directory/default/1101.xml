@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<include>
+  <user id="1101">
+    <params>
+      <param name="password" value="1234pip"/>
+      <param name="vm-password" value="1101"/>
+    </params>
+    <variables>
+      <variable name="accountcode" value="1101"/>
+      <variable name="activo" value="1"/>
+      <variable name="internos" value="1"/>
+      <variable name="urbanas" value="1"/>
+      <variable name="celulares" value="1"/>
+      <variable name="ddi" value="1"/>
+      <variable name="casilla" value="1"/>
+      <variable name="redirect" value=""/>
+      <variable name="pickup" value="grupo1"/>
+      <variable name="nombre" value=""/>
+      <variable name="apellido" value="Recepcion"/>
+      <variable name="sector" value="ventas"/>
+      <variable name="celular" value=""/>
+      <variable name="email" value=""/>
+      <variable name="user_context" value="urbanas"/>
+      <variable name="effective_caller_id_name" value="Operadora"/>
+      <variable name="effective_caller_id_number" value="1101"/>
+      <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+      <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+      <variable name="webpass" value="stylus"/>
+    </variables>
+  </user>
+</include>

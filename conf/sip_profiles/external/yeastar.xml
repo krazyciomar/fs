@@ -1,0 +1,13 @@
+<gateway name="mirador">
+      <param name="realm" value="192.168.77.80"/>
+      <param name="username" value="9001"/>
+      <param name="from-user" value="9001"/>
+      <param name="password" value="m0r2cc1c2p0"/>
+      <param name="dtmf-type" value="rfc2833"/>
+      <param name="expire-seconds" value="600"/>
+      <param name="register" value="true"/>
+      <param name="retry-seconds" value="30"/>
+      <param name="context" value="mirador"/>
+      <param name="register-transport" value="udp"/>
+</gateway>
+
