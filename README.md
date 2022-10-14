@@ -13,18 +13,19 @@ docker build -t fsimage ./
 ### Ejecutando generando container
 
 
-El container debe ser generado y debe correr dentro de una red de docker que se encuentre en modo 'bridge'.
-En este ejemplo tenemos la red **puente**, la IP: 10.10.10.1, nombre del container 'fs' utilizando la imagen que creamos arriba 'fsimage'.
+El container debe ser generado y debe correr dentro de una red de docker que se encuentre en **modo bridge**.
+En este ejemplo tenemos la red *puente*, la IP: *10.10.10.1*, nombre del container *fs* utilizando la imagen que creamos arriba *fsimage*.
 
-El directorio '/root/fs/recordings' corresponde a la ruta en donde se van a poner los audios de las llamadas realizadas y 
-el directorio '/root/fs/conf' corresponde al lugar donde reside la configuración del freeswitch conteinerizado.
+El directorio */root/fs/recordings* corresponde a la ruta en donde se van a poner los audios de las llamadas realizadas y 
+el directorio */root/fs/conf* corresponde al lugar donde reside la configuración del freeswitch conteinerizado.
 
 ```
 docker run -d --volume=/root/fs/recordings:/usr/local/freeswitch/recordings --volume=/root/fs/conf:/usr/local/freeswitch/conf --net puente --ip 10.10.10.1 --name fs fsimage
-
-Cada vez que haga falta iniciar el container: docker container start fs
-Cada vez que haga falta detenerlo: docker container stop fs
 ```
+
+Cada vez que haga falta iniciar el container: ```docker container start fs```
+Cada vez que haga falta detenerlo: ```docker container stop fs```
+
 
 ## Configuracion
 ```
