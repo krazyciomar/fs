@@ -10,7 +10,7 @@ cd fs
 docker build -t fsimage ./
 ```
 
-### Ejecutando generando container
+### Generando container
 
 
 El container debe ser generado y debe correr dentro de una red de docker que se encuentre en **modo bridge**.
