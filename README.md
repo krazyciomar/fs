@@ -22,8 +22,7 @@ El directorio */root/fs/recordings* corresponde a la ruta en donde se van a pone
 docker run -d --volume=/root/fs/recordings:/usr/local/freeswitch/recordings --volume=/root/fs/conf:/usr/local/freeswitch/conf --net puente --ip 10.10.10.1 --name fs fsimage
 ```
 
-Cada vez que haga falta iniciar el container: ```docker container start fs```
-Cada vez que haga falta detenerlo: ```docker container stop fs```
+Cada vez que haga falta iniciar el container: ```docker container start fs```, y si hay que detenerlo: ```docker container stop fs```
 
 
 ## Configuracion
